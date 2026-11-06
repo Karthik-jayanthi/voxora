@@ -1,0 +1,25 @@
+﻿
+== language_code=indic-auto format=codemix
+  transcript: α░░α▒åα░éα░íα▒ü α░òα░┐α░▓α▒ïα░▓ α░¼α░┐α░»α▒ìα░»α░é α░çα░éα░òα░╛ α░«α▒éα░íα▒ü kgα░▓α▒ü α░ªα░éα░¬α░▓α░┐α░╡α▒ìα░╡α░éα░íα░┐.
+  detected  : te-IN
+  latency   : 0.1716310977935791
+
+== language_code=te-IN,en-IN format=codemix
+  transcript: α░░α▒åα░éα░íα▒ü α░òα░┐α░▓α▒ïα░▓ α░¼α░┐α░»α▒ìα░»α░é α░çα░éα░òα░╛ α░«α▒éα░íα▒ü kgα░▓α▒ü α░ªα░éα░¬α░▓α░┐α░╡α▒ìα░╡α░éα░íα░┐.
+  detected  : te-IN
+  latency   : 0.16460394859313965
+
+== language_code=te-IN,en-IN format=transcribe
+  transcript: 2 α░òα░┐α░▓α▒ïα░▓ α░¼α░┐α░»α▒ìα░»α░é α░çα░éα░òα░╛ 3 kg α░ªα░éα░¬α░▓α▒ü α░çα░╡α▒ìα░╡α░éα░íα░┐.
+  detected  : te-IN
+  latency   : 0.16672110557556152
+
+== language_code=te-IN,en-IN format=verbatim
+  transcript: α░░α▒åα░éα░íα▒ü α░òα░┐α░▓α▒ïα░▓ α░¼α░┐α░»α▒ìα░»α░é α░çα░éα░òα░╛ α░«α▒éα░íα▒ü α░òα▒çα░£α▒Çα░▓ α░ªα░éα░¬α░▓α▒ü α░çα░╡α▒ìα░╡α░éα░íα░┐.
+  detected  : te-IN
+  latency   : 0.1703801155090332
+
+== language_code=te-IN,en-IN format=transliterate
+  transcript: rendu kilol biyam, inka moodu kgil dompalivandi.
+  detected  : None
+  latency   : 0.1705935001373291

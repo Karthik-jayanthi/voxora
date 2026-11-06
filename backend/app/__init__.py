@@ -10,8 +10,9 @@ def create_app() -> Flask:
 
     CORS(app, resources={r"/api/*": {"origins": [app.config["FRONTEND_ORIGIN"]]}})
 
-    from .routes import health
+    from .routes import health, voice
 
     app.register_blueprint(health.bp)
+    app.register_blueprint(voice.bp)
 
     return app

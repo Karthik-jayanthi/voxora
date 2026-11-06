@@ -1,0 +1,25 @@
+﻿
+== language_code=indic-auto format=codemix
+  transcript: α▓Äα▓░α▓íα│ü kg α▓åα▓▓α│éα▓ùα▓íα│ìα▓íα│å α▓«α▓ñα│ìα▓ñα│ü α▓Äα▓░α▓íα│ü α▓╣α▓╛α▓▓α│ü packet α▓òα│èα▓íα▓┐.
+  detected  : kn-IN
+  latency   : 0.18238520622253418
+
+== language_code=kn-IN,en-IN format=codemix
+  transcript: α▓Äα▓░α▓íα│ü kg α▓åα▓▓α│éα▓ùα▓íα│ìα▓íα│å α▓«α▓ñα│ìα▓ñα│ü α▓Äα▓░α▓íα│ü α▓╣α▓╛α▓▓α│ü packet α▓òα│èα▓íα▓┐.
+  detected  : kn-IN
+  latency   : 0.15254783630371094
+
+== language_code=kn-IN,en-IN format=transcribe
+  transcript: 2 kg α▓åα▓▓α│éα▓ùα▓íα│ìα▓íα│å α▓«α▓ñα│ìα▓ñα│ü 2 α▓╣α▓╛α▓▓α│ü packet α▓òα│èα▓íα▓┐.
+  detected  : kn-IN
+  latency   : 0.14017987251281738
+
+== language_code=kn-IN,en-IN format=verbatim
+  transcript: α▓Äα▓░α▓íα│ü α▓òα│å α▓£α▓┐ α▓åα▓▓α│éα▓ùα▓íα│ìα▓íα│å α▓«α▓ñα│ìα▓ñα│ü α▓Äα▓░α▓íα│ü α▓╣α▓╛α▓▓α│ü α▓¬α│ìα▓»α▓╛α▓òα│åα▓ƒα│ì α▓òα│èα▓íα▓┐.
+  detected  : kn-IN
+  latency   : 0.17789483070373535
+
+== language_code=kn-IN,en-IN format=transliterate
+  transcript: eradu kg alugadde mattu eradu hal packet kodi.
+  detected  : None
+  latency   : 0.15260577201843262

@@ -1,0 +1,25 @@
+﻿
+== language_code=indic-auto format=codemix
+  transcript: α░àα░¿α▒ìα░¿α░╛, α░░α▒åα░éα░íα▒ü α░òα░┐α░▓α▒ïα░▓ α░¼α░┐α░»α▒ìα░»α░é, α░Æα░ò α░▓α▒Çα░ƒα░░α▒ì oil, α░«α▒éα░íα▒ü packets milk α░òα░╛α░╡α░╛α░▓α░┐.
+  detected  : te-IN
+  latency   : 0.21959710121154785
+
+== language_code=te-IN,en-IN format=codemix
+  transcript: α░àα░¿α▒ìα░¿α░╛, α░░α▒åα░éα░íα▒ü α░òα░┐α░▓α▒ïα░▓ α░¼α░┐α░»α▒ìα░»α░é, α░Æα░ò α░▓α▒Çα░ƒα░░α▒ì oil, α░«α▒éα░íα▒ü packets milk α░òα░╛α░╡α░╛α░▓α░┐.
+  detected  : te-IN
+  latency   : 0.2557704448699951
+
+== language_code=te-IN,en-IN format=transcribe
+  transcript: α░àα░¿α▒ìα░¿α░╛, 2 α░òα░┐α░▓α▒ïα░▓ α░¼α░┐α░»α▒ìα░»α░é, 1 α░▓α▒Çα░ƒα░░α▒ì oil, 3 α░¬α▒ìα░»α░╛α░òα▒åα░ƒα▒ìα░▓α▒ü milk α░òα░╛α░╡α░╛α░▓α░┐.
+  detected  : te-IN
+  latency   : 0.22437047958374023
+
+== language_code=te-IN,en-IN format=verbatim
+  transcript: α░àα░¿α▒ìα░¿α░╛, α░░α▒åα░éα░íα▒ü α░òα░┐α░▓α▒ïα░▓ α░¼α░┐α░»α▒ìα░»α░é, α░Æα░ò α░▓α▒Çα░ƒα░░α▒ì α░åα░»α░┐α░▓α▒ì, α░«α▒éα░íα▒ü α░¬α▒ìα░»α░╛α░òα▒åα░ƒα▒ìα░▓α▒ü α░«α░┐α░▓α▒ìα░òα▒ì α░òα░╛α░╡α░╛α░▓α░┐.
+  detected  : te-IN
+  latency   : 0.2602665424346924
+
+== language_code=te-IN,en-IN format=transliterate
+  transcript: Anna, rendu kilol biyyam, oka liter oil, moodu packets milk kavali.
+  detected  : None
+  latency   : 0.19131159782409668

@@ -1,0 +1,25 @@
+﻿
+== language_code=indic-auto format=codemix
+  transcript: Give me 2 kg of rice and 1 litre of sunflower oil.
+  detected  : en-IN
+  latency   : 0.15487456321716309
+
+== language_code=en-IN format=codemix
+  transcript: Give me 2 kg of rice and 1 litre of sunflower oil.
+  detected  : en-IN
+  latency   : 0.3773200511932373
+
+== language_code=en-IN format=transcribe
+  transcript: Give me 2 kg of rice and 1 litre of sunflower oil.
+  detected  : en-IN
+  latency   : 0.1971876621246338
+
+== language_code=en-IN format=verbatim
+  transcript: Give me two cages of rice and one litre of sunflower oil.
+  detected  : en-IN
+  latency   : 0.20418572425842285
+
+== language_code=en-IN format=transliterate
+  transcript: Give me two cages of rice and one litre of sunflower oil.
+  detected  : None
+  latency   : 0.1806046962738037
