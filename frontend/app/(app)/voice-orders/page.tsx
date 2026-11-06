@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { AlertTriangle, CheckCircle2, Loader2, Mic, Plus, RotateCcw, Square, Trash2 } from "lucide-react";
 import ConfirmOrder, { type ConfirmedOrder } from "@/components/ConfirmOrder";
+import SpokenConfirmation from "@/components/SpokenConfirmation";
 import { apiFetch } from "@/lib/api";
 import { supabase } from "@/lib/supabase";
 import { blobToWav16k } from "@/lib/wav";
@@ -487,13 +488,19 @@ export default function VoiceOrdersPage() {
                   Some items need attention. The bill is not final until every item shows OK.
                 </p>
               )}
-              {!hasProblem && canConfirm && !parsing && (
-                <ConfirmOrder
-                  items={items.map((i) => ({ product_id: i.product_id, quantity: i.quantity, unit: i.unit }))}
-                  total={subtotal}
-                  language={detected}
-                  onConfirmed={handleConfirmed}
-                />
+                            {!hasProblem && canConfirm && !parsing && (
+                <>
+                  <SpokenConfirmation
+                    items={items.map((i) => ({ product_id: i.product_id, quantity: i.quantity, unit: i.unit }))}
+                    detectedLanguage={detected}
+                  />
+                  <ConfirmOrder
+                    items={items.map((i) => ({ product_id: i.product_id, quantity: i.quantity, unit: i.unit }))}
+                    total={subtotal}
+                    language={detected}
+                    onConfirmed={handleConfirmed}
+                  />
+                </>
               )}
             </div>
           )}
