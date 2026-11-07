@@ -10,9 +10,11 @@ def create_app() -> Flask:
     app = Flask(__name__)
     app.config.from_object(Config)
 
+    origins = [o.strip().rstrip("/") for o in app.config["FRONTEND_ORIGIN"].split(",") if o.strip()]
+
     CORS(
         app,
-        resources={r"/api/*": {"origins": [app.config["FRONTEND_ORIGIN"]]}},
+        resources={r"/api/*": {"origins": origins}},
         allow_headers=["Authorization", "Content-Type"],
     )
 
@@ -28,6 +30,8 @@ def create_app() -> Flask:
         if isinstance(e, HTTPException):
             return e
         app.logger.exception("Unhandled error")
-        return api_error("SERVER_ERROR", f"{type(e).__name__}: {e}", 500)
+        if app.debug:
+            return api_error("SERVER_ERROR", f"{type(e).__name__}: {e}", 500)
+        return api_error("SERVER_ERROR", "Something went wrong on the server. Try again.", 500)
 
     return app
